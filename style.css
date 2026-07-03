@@ -36,7 +36,7 @@ body {
 }
 
 .weather-card {
-    background: rgba(255, 255, 255, 0.2);
+    background: linear-gradient(360deg, #0a284796, #869B7E, #d6f1fe);
     padding: 20px;
     border-radius: 15px;
     box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
@@ -61,7 +61,8 @@ body {
 
 .history {
     margin-top: 20px;
-    background: rgba(255, 255, 255, 0.15);
+    margin-bottom: 20px;
+    background: linear-gradient(180deg, #0a284796, #869B7E, #e1f4fde2);
     padding: 15px;
     border-radius: 10px;
 }
@@ -69,6 +70,7 @@ body {
 .history h3 {
     margin-bottom: 10px;
     font-size: 18px;
+    color: rgb(248, 250, 250);
 }
 
 .history ul {
@@ -79,9 +81,9 @@ body {
 .history li {
     padding: 5px;
     margin: 3px 0;
-    background: rgba(255, 255, 255, 0.25);
+    background: #4943398e;
     border-radius: 5px;
-    color: #fff;
+    color: #fdfdfd;
     cursor: pointer;
 }
 
@@ -97,6 +99,7 @@ body {
     background-size: cover;
     max-width: 300px;
 }
+
 
 #clearHistory {
     height: 20px;
